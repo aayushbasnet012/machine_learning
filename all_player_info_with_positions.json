@@ -1,0 +1,4620 @@
+{
+  "Jack Grealish": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-22",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      22,
+      14
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Adama Traoré Diarra": {
+    "Team": "Aston Villa",
+    "Id": 11333.0,
+    "Injury_dates": [
+      "2015-08-22",
+      "2015-09-26",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      28,
+      20,
+      91
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Idrissa Gana Gueye": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29"
+    ],
+    "Injury_duration": [
+      21
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Tiago Abiola Delfim Almeida Ilori": {
+    "Team": "Aston Villa - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-01"
+    ],
+    "Injury_duration": [
+      94
+    ],
+    "Position": "Unknown"
+  },
+  "Gabriel Imuetinyan Agbonlahor": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-11-02",
+      "2015-12-05",
+      "2016-02-14",
+      "2016-03-05",
+      "2016-03-19"
+    ],
+    "Injury_duration": [
+      35,
+      32,
+      55,
+      12,
+      14,
+      28
+    ],
+    "Position": "Center Forward"
+  },
+  "Ciaran Clark": {
+    "Team": "Aston Villa - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-23",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      31,
+      13
+    ],
+    "Position": "Unknown"
+  },
+  "Micah Richards": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-24",
+      "2015-11-28",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      9,
+      28,
+      27
+    ],
+    "Position": "Right Center Back"
+  },
+  "José Ángel Crespo Rincón": {
+    "Team": "Aston Villa - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-03"
+    ],
+    "Injury_duration": [
+      40
+    ],
+    "Position": "Unknown"
+  },
+  "Ashley Westwood": {
+    "Team": "Aston Villa",
+    "Id": 3583.0,
+    "Injury_dates": [
+      "2015-11-02"
+    ],
+    "Injury_duration": [
+      18
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Jordan Amavi": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-08"
+    ],
+    "Injury_duration": [
+      190
+    ],
+    "Position": "Left Back"
+  },
+  "Rudy Gestede": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-08",
+      "2016-01-23",
+      "2016-04-30"
+    ],
+    "Injury_duration": [
+      12,
+      34,
+      14
+    ],
+    "Position": "Center Forward"
+  },
+  "Carlos Alberto Sánchez Moreno": {
+    "Team": "Aston Villa",
+    "Id": 5685.0,
+    "Injury_dates": [
+      "2015-12-05",
+      "2015-12-26",
+      "2016-01-19"
+    ],
+    "Injury_duration": [
+      7,
+      21,
+      60
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Alan Hutton": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      42
+    ],
+    "Position": "Right Back"
+  },
+  "Leandro Bacuna": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16"
+    ],
+    "Injury_duration": [
+      6
+    ],
+    "Position": "Right Back"
+  },
+  "Kieran Richardson": {
+    "Team": "Aston Villa - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-20",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      12,
+      29
+    ],
+    "Position": "Unknown"
+  },
+  "Libor Kozák": {
+    "Team": "Aston Villa",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      70
+    ],
+    "Position": "Right Center Forward"
+  },
+  "Jordan Veretout": {
+    "Team": "Aston Villa - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Unknown"
+  },
+  "Laurent Koscielny": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-09-26",
+      "2015-12-05",
+      "2016-02-28"
+    ],
+    "Injury_duration": [
+      0,
+      20,
+      -1,
+      16
+    ],
+    "Position": "Left Center Back"
+  },
+  "Per Mertesacker": {
+    "Team": "Arsenal - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-23",
+      "2015-09-15",
+      "2016-04-30"
+    ],
+    "Injury_duration": [
+      22,
+      7,
+      15
+    ],
+    "Position": "Unknown"
+  },
+  "Francis Joseph Coquelin": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-11-21"
+    ],
+    "Injury_duration": [
+      9,
+      68
+    ],
+    "Position": "Left Defensive Midfield"
+  },
+  "Mikel Arteta Amatriain": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-26",
+      "2015-10-17",
+      "2015-11-21"
+    ],
+    "Injury_duration": [
+      20,
+      21,
+      48
+    ],
+    "Position": "Left Defensive Midfield"
+  },
+  "Mathieu Flamini": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-26"
+    ],
+    "Injury_duration": [
+      21
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "G Paulista": {
+    "Team": "Arsenal - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-16",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      2,
+      14
+    ],
+    "Position": "Unknown"
+  },
+  "David Ospina Ramírez": {
+    "Team": "Arsenal - no valid matches with player participation",
+    "Id": 4276.0,
+    "Injury_dates": [
+      "2015-10-16",
+      "2016-01-08"
+    ],
+    "Injury_duration": [
+      22,
+      8
+    ],
+    "Position": "Unknown"
+  },
+  "Aaron Ramsey": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-17",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      37,
+      35
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Alex Oxlade-Chamberlain": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-24"
+    ],
+    "Injury_duration": [
+      35
+    ],
+    "Position": "Right Wing"
+  },
+  "Theo Walcott": {
+    "Team": "Arsenal - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-27"
+    ],
+    "Injury_duration": [
+      38
+    ],
+    "Position": "Unknown"
+  },
+  "Héctor Bellerín Moruno": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31"
+    ],
+    "Injury_duration": [
+      20
+    ],
+    "Position": "Right Back"
+  },
+  "Kieran Gibbs": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Santiago Cazorla González": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-29"
+    ],
+    "Injury_duration": [
+      146
+    ],
+    "Position": "Left Wing"
+  },
+  "Alexis Alejandro Sánchez Sánchez": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-29"
+    ],
+    "Injury_duration": [
+      55
+    ],
+    "Position": "Left Wing"
+  },
+  "Mesut Özil": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-13",
+      "2016-04-30"
+    ],
+    "Injury_duration": [
+      5,
+      14
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Petr Čech": {
+    "Team": "Arsenal",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-02"
+    ],
+    "Injury_duration": [
+      30
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Daniel Nii Tackie Mensah Welbeck": {
+    "Team": "Arsenal",
+    "Id": 3569.0,
+    "Injury_dates": [
+      "2016-05-08"
+    ],
+    "Injury_duration": [
+      238
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Shaun MacDonald": {
+    "Team": "AFC Bournemouth - no valid matches with player participation",
+    "Id": 29382.0,
+    "Injury_dates": [
+      "2015-08-07"
+    ],
+    "Injury_duration": [
+      10
+    ],
+    "Position": "Unknown"
+  },
+  "Joshua King": {
+    "Team": "AFC Bournemouth",
+    "Id": 3346.0,
+    "Injury_dates": [
+      "2015-08-22",
+      "2015-12-12",
+      "2016-01-02",
+      "2016-03-01",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      21,
+      14,
+      27,
+      3,
+      12
+    ],
+    "Position": "Right Center Forward"
+  },
+  "Charlie Daniels": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29"
+    ],
+    "Injury_duration": [
+      21
+    ],
+    "Position": "Left Back"
+  },
+  "Max-Alain Gradel": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2016-04-17"
+    ],
+    "Injury_duration": [
+      181,
+      19
+    ],
+    "Position": "Left Midfield"
+  },
+  "Tyrone Mings": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29"
+    ],
+    "Injury_duration": [
+      384
+    ],
+    "Position": "Left Back"
+  },
+  "Tommy Elphick": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-12"
+    ],
+    "Injury_duration": [
+      139
+    ],
+    "Position": "Right Center Back"
+  },
+  "Callum Wilson": {
+    "Team": "AFC Bournemouth",
+    "Id": 3616.0,
+    "Injury_dates": [
+      "2015-09-26"
+    ],
+    "Injury_duration": [
+      195
+    ],
+    "Position": "Left Center Forward"
+  },
+  "Artur Boruc": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03",
+      "2015-11-08"
+    ],
+    "Injury_duration": [
+      21,
+      26
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Andrew Surman": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-25"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Marc Pugh": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-01"
+    ],
+    "Injury_duration": [
+      40
+    ],
+    "Position": "Left Midfield"
+  },
+  "Lee Tomlin": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07"
+    ],
+    "Injury_duration": [
+      49
+    ],
+    "Position": "Left Center Forward"
+  },
+  "Harry Arter": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05",
+      "2016-03-01",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      -1,
+      19,
+      41
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Steve Cook": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Left Center Back"
+  },
+  "Sylvain Distin": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-28",
+      "2016-04-03"
+    ],
+    "Injury_duration": [
+      13,
+      42
+    ],
+    "Position": "Left Center Back"
+  },
+  "Adam Federici": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-28"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Junior Stanislas": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-26",
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      -1,
+      10
+    ],
+    "Position": "Left Midfield"
+  },
+  "Tokelo Anthony Rantie": {
+    "Team": "AFC Bournemouth - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-03"
+    ],
+    "Injury_duration": [
+      9
+    ],
+    "Position": "Unknown"
+  },
+  "Benik Afobe": {
+    "Team": "AFC Bournemouth",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      6,
+      33
+    ],
+    "Position": "Center Forward"
+  },
+  "Matt Ritchie": {
+    "Team": "AFC Bournemouth",
+    "Id": 3049.0,
+    "Injury_dates": [
+      "2016-01-12"
+    ],
+    "Injury_duration": [
+      10
+    ],
+    "Position": "Right Midfield"
+  },
+  "Adam Smith": {
+    "Team": "AFC Bournemouth",
+    "Id": 6409.0,
+    "Injury_dates": [
+      "2016-04-02"
+    ],
+    "Injury_duration": [
+      43
+    ],
+    "Position": "Left Midfield"
+  },
+  "Mile Jedinak": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-22",
+      "2015-09-12",
+      "2015-12-07",
+      "2016-04-30"
+    ],
+    "Injury_duration": [
+      21,
+      34,
+      19,
+      14
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Damien Delaney": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-09-20",
+      "2015-12-26"
+    ],
+    "Injury_duration": [
+      22,
+      26,
+      7
+    ],
+    "Position": "Left Center Back"
+  },
+  "Joe Ledley": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2016-04-17",
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      22,
+      7,
+      34
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Joel Ward": {
+    "Team": "Crystal Palace",
+    "Id": 3443.0,
+    "Injury_dates": [
+      "2015-08-29",
+      "2016-04-17"
+    ],
+    "Injury_duration": [
+      59,
+      7
+    ],
+    "Position": "Right Back"
+  },
+  "Connor Wickham": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-12-19",
+      "2016-03-01"
+    ],
+    "Injury_duration": [
+      71,
+      23,
+      32
+    ],
+    "Position": "Center Forward"
+  },
+  "Jason Puncheon": {
+    "Team": "Crystal Palace",
+    "Id": 19688.0,
+    "Injury_dates": [
+      "2015-09-12",
+      "2015-10-24",
+      "2016-02-02"
+    ],
+    "Injury_duration": [
+      8,
+      7,
+      39
+    ],
+    "Position": "Left Midfield"
+  },
+  "Pape N''Diaye Souaré": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-17"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Left Back"
+  },
+  "Yannick Bolasie Yala": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2015-12-19",
+      "2016-04-17",
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      0,
+      63,
+      7,
+      -1
+    ],
+    "Position": "Right Midfield"
+  },
+  "Yohan Cabaye": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2015-12-12",
+      "2016-03-06",
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      0,
+      14,
+      6,
+      8
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Dwight Gayle": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2015-12-07",
+      "2016-04-13"
+    ],
+    "Injury_duration": [
+      36,
+      75,
+      7
+    ],
+    "Position": "Right Wing"
+  },
+  "Bakary Sako": {
+    "Team": "Crystal Palace",
+    "Id": 3469.0,
+    "Injury_dates": [
+      "2015-11-23",
+      "2016-01-12"
+    ],
+    "Injury_duration": [
+      49,
+      48
+    ],
+    "Position": "Left Wing"
+  },
+  "Brede Hangeland": {
+    "Team": "Crystal Palace - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-07"
+    ],
+    "Injury_duration": [
+      98
+    ],
+    "Position": "Unknown"
+  },
+  "James McArthur": {
+    "Team": "Crystal Palace",
+    "Id": 3464.0,
+    "Injury_dates": [
+      "2016-02-02"
+    ],
+    "Injury_duration": [
+      77
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Marouane Chamakh": {
+    "Team": "Crystal Palace - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-10"
+    ],
+    "Injury_duration": [
+      67
+    ],
+    "Position": "Unknown"
+  },
+  "Wayne Hennessey": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-01"
+    ],
+    "Injury_duration": [
+      11
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Scott Dann": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-17"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Right Center Back"
+  },
+  "Wilfried Zaha": {
+    "Team": "Crystal Palace",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-20"
+    ],
+    "Injury_duration": [
+      25
+    ],
+    "Position": "Right Midfield"
+  },
+  "Victor Moses": {
+    "Team": "Chelsea - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-21",
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      8,
+      38
+    ],
+    "Position": "Unknown"
+  },
+  "Oscar dos Santos Emboaba Júnior": {
+    "Team": "Chelsea - no valid matches with player participation",
+    "Id": 40122.0,
+    "Injury_dates": [
+      "2015-08-16",
+      "2015-09-19"
+    ],
+    "Injury_duration": [
+      27,
+      0
+    ],
+    "Position": "Unknown"
+  },
+  "Radamel Falcao García Zárate": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-12",
+      "2015-10-31"
+    ],
+    "Injury_duration": [
+      7,
+      153
+    ],
+    "Position": "Right Wing"
+  },
+  "Pedro Eliezer Rodríguez Ledesma": {
+    "Team": "Chelsea",
+    "Id": 3958.0,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-10-17",
+      "2016-01-16",
+      "2016-05-02"
+    ],
+    "Injury_duration": [
+      0,
+      14,
+      14,
+      8
+    ],
+    "Position": "Left Wing"
+  },
+  "Willian Borges da Silva": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-12",
+      "2016-02-07",
+      "2016-05-15"
+    ],
+    "Injury_duration": [
+      14,
+      -5,
+      -1
+    ],
+    "Position": "Right Wing"
+  },
+  "Branislav Ivanović": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03",
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      35,
+      7
+    ],
+    "Position": "Right Back"
+  },
+  "Loïc Rémy": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-17",
+      "2015-12-27",
+      "2016-01-24",
+      "2016-04-02"
+    ],
+    "Injury_duration": [
+      9,
+      16,
+      19,
+      44
+    ],
+    "Position": "Center Forward"
+  },
+  "Diego da Silva Costa": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2016-01-16",
+      "2016-01-24",
+      "2016-03-01",
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      -1,
+      7,
+      6,
+      7,
+      8
+    ],
+    "Position": "Center Forward"
+  },
+  "Kurt Happy Zouma": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07",
+      "2016-02-07"
+    ],
+    "Injury_duration": [
+      13,
+      310
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Ramires Santos do Nascimento": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-21"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Right Wing"
+  },
+  "John Terry": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-21",
+      "2016-02-13",
+      "2016-03-19"
+    ],
+    "Injury_duration": [
+      14,
+      28,
+      43
+    ],
+    "Position": "Left Center Back"
+  },
+  "Eden Hazard": {
+    "Team": "Chelsea",
+    "Id": 3621.0,
+    "Injury_dates": [
+      "2015-12-14",
+      "2016-01-03",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      12,
+      20,
+      48
+    ],
+    "Position": "Left Wing"
+  },
+  "Gary Cahill": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-26",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      14,
+      15
+    ],
+    "Position": "Right Center Back"
+  },
+  "Nemanja Matić": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-03",
+      "2016-03-23"
+    ],
+    "Injury_duration": [
+      9,
+      24
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Robert Kenedy Nunes do Nascimento": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-01",
+      "2016-03-19"
+    ],
+    "Injury_duration": [
+      7,
+      13
+    ],
+    "Position": "Left Back"
+  },
+  "Thibaut Courtois": {
+    "Team": "Chelsea",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Kevin Mirallas": {
+    "Team": "Everton",
+    "Id": 4317.0,
+    "Injury_dates": [
+      "2015-08-08",
+      "2016-01-24"
+    ],
+    "Injury_duration": [
+      6,
+      12
+    ],
+    "Position": "Right Wing"
+  },
+  "Tom Cleverley": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-12-28",
+      "2016-01-03",
+      "2016-04-09"
+    ],
+    "Injury_duration": [
+      55,
+      6,
+      12,
+      10
+    ],
+    "Position": "Left Wing"
+  },
+  "Bryan Oviedo": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-11-01",
+      "2016-01-16",
+      "2016-03-05",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      21,
+      72,
+      7,
+      -1,
+      28
+    ],
+    "Position": "Right Wing"
+  },
+  "Muhamed Bešić": {
+    "Team": "Everton",
+    "Id": 3476.0,
+    "Injury_dates": [
+      "2015-09-12",
+      "2016-01-24"
+    ],
+    "Injury_duration": [
+      50,
+      40
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Séamus Coleman": {
+    "Team": "Everton",
+    "Id": 4589.0,
+    "Injury_dates": [
+      "2015-09-12",
+      "2015-10-24",
+      "2016-01-03",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      22,
+      7,
+      20,
+      29
+    ],
+    "Position": "Right Back"
+  },
+  "John Stones": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2016-01-24"
+    ],
+    "Injury_duration": [
+      27,
+      26
+    ],
+    "Position": "Right Center Back"
+  },
+  "Browning": {
+    "Team": "Everton - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-27"
+    ],
+    "Injury_duration": [
+      409
+    ],
+    "Position": "Unknown"
+  },
+  "Phil Jagielka": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-24",
+      "2016-04-09"
+    ],
+    "Injury_duration": [
+      71,
+      13
+    ],
+    "Position": "Left Center Back"
+  },
+  "Brendan Joel Zibusiso Galloway": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      13,
+      56
+    ],
+    "Position": "Left Back"
+  },
+  "James McCarthy": {
+    "Team": "Everton",
+    "Id": 3607.0,
+    "Injury_dates": [
+      "2015-11-28",
+      "2015-12-28"
+    ],
+    "Injury_duration": [
+      28,
+      29
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Steven Naismith": {
+    "Team": "Everton - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-13",
+      "2016-01-08",
+      "2016-03-05",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      13,
+      8,
+      7,
+      12
+    ],
+    "Position": "Unknown"
+  },
+  "Tim Howard": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-24"
+    ],
+    "Injury_duration": [
+      19
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Darron Gibson": {
+    "Team": "Everton - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-04"
+    ],
+    "Injury_duration": [
+      72
+    ],
+    "Position": "Unknown"
+  },
+  "Steven Pienaar": {
+    "Team": "Everton - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-14"
+    ],
+    "Injury_duration": [
+      58
+    ],
+    "Position": "Unknown"
+  },
+  "Gareth Barry": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-05",
+      "2016-04-20"
+    ],
+    "Injury_duration": [
+      7,
+      20
+    ],
+    "Position": "Left Defensive Midfield"
+  },
+  "Aaron Lennon": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-05",
+      "2016-04-13"
+    ],
+    "Injury_duration": [
+      7,
+      6
+    ],
+    "Position": "Right Midfield"
+  },
+  "Leon Osman": {
+    "Team": "Everton - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      27
+    ],
+    "Position": "Unknown"
+  },
+  "Leighton Baines": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-13"
+    ],
+    "Injury_duration": [
+      6
+    ],
+    "Position": "Left Back"
+  },
+  "Tony Hibbert": {
+    "Team": "Everton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-30"
+    ],
+    "Injury_duration": [
+      15
+    ],
+    "Position": "Right Back"
+  },
+  "Yohan Benalouane": {
+    "Team": "Leicester City",
+    "Id": 4826.0,
+    "Injury_dates": [
+      "2015-08-08"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Right Back"
+  },
+  "N''Golo Kanté": {
+    "Team": "Leicester City",
+    "Id": 3961.0,
+    "Injury_dates": [
+      "2015-08-08"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Left Center Forward"
+  },
+  "José Leonardo Ulloa": {
+    "Team": "Leicester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03"
+    ],
+    "Injury_duration": [
+      27
+    ],
+    "Position": "Right Midfield"
+  },
+  "Jamie Vardy": {
+    "Team": "Leicester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07",
+      "2015-12-19",
+      "2016-01-02",
+      "2016-05-15"
+    ],
+    "Injury_duration": [
+      13,
+      6,
+      10,
+      -1
+    ],
+    "Position": "Left Center Forward"
+  },
+  "Ritchie De Laet": {
+    "Team": "Leicester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-28",
+      "2016-01-16"
+    ],
+    "Injury_duration": [
+      20,
+      17
+    ],
+    "Position": "Right Back"
+  },
+  "Jeffrey Schlupp": {
+    "Team": "Leicester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      83
+    ],
+    "Position": "Left Back"
+  },
+  "Danny Drinkwater": {
+    "Team": "Leicester City",
+    "Id": 3662.0,
+    "Injury_dates": [
+      "2015-12-14"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Shinji Okazaki": {
+    "Team": "Leicester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      9
+    ],
+    "Position": "Right Center Forward"
+  },
+  "Daniel Amartey": {
+    "Team": "Leicester City - no valid matches with player participation",
+    "Id": 3709.0,
+    "Injury_dates": [
+      "2016-02-01"
+    ],
+    "Injury_duration": [
+      5
+    ],
+    "Position": "Unknown"
+  },
+  "Andrew Philip King": {
+    "Team": "Leicester City",
+    "Id": 3665.0,
+    "Injury_dates": [
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      28
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Jordan Brian Henderson": {
+    "Team": "Liverpool",
+    "Id": 3532.0,
+    "Injury_dates": [
+      "2015-08-17",
+      "2015-12-30",
+      "2016-02-02",
+      "2016-04-02"
+    ],
+    "Injury_duration": [
+      103,
+      13,
+      -1,
+      42
+    ],
+    "Position": "Left Defensive Midfield"
+  },
+  "Adam David Lallana": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-17",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      26,
+      21
+    ],
+    "Position": "Left Wing"
+  },
+  "Christian Benteke Liolo": {
+    "Team": "Liverpool",
+    "Id": 3380.0,
+    "Injury_dates": [
+      "2015-09-20",
+      "2015-10-31",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      31,
+      -1,
+      31
+    ],
+    "Position": "Center Forward"
+  },
+  "Dejan Lovren": {
+    "Team": "Liverpool - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-23",
+      "2015-12-13",
+      "2016-01-02",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      29,
+      13,
+      23,
+      24
+    ],
+    "Position": "Unknown"
+  },
+  "Roberto Firmino Barbosa de Oliveira": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-20",
+      "2016-03-18"
+    ],
+    "Injury_duration": [
+      31,
+      15
+    ],
+    "Position": "Right Wing"
+  },
+  "Philippe Coutinho Correia": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-04",
+      "2015-11-21",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      12,
+      15,
+      35
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Jordan Rossiter": {
+    "Team": "Liverpool - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-05",
+      "2015-12-11"
+    ],
+    "Injury_duration": [
+      62,
+      156
+    ],
+    "Position": "Unknown"
+  },
+  "Daniel Andre Sturridge": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-04",
+      "2015-12-06",
+      "2016-02-29"
+    ],
+    "Injury_duration": [
+      47,
+      61,
+      5
+    ],
+    "Position": "Right Center Forward"
+  },
+  "Kolo Habib Touré": {
+    "Team": "Liverpool - no valid matches with player participation",
+    "Id": 38412.0,
+    "Injury_dates": [
+      "2015-10-28",
+      "2015-12-30"
+    ],
+    "Injury_duration": [
+      23,
+      13
+    ],
+    "Position": "Unknown"
+  },
+  "James Philip Milner": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2015-12-13",
+      "2016-03-06"
+    ],
+    "Injury_duration": [
+      20,
+      22,
+      5
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Jordon Ibe": {
+    "Team": "Liverpool",
+    "Id": 3635.0,
+    "Injury_dates": [
+      "2015-11-08",
+      "2015-12-13",
+      "2015-12-20"
+    ],
+    "Injury_duration": [
+      12,
+      0,
+      9
+    ],
+    "Position": "Right Wing"
+  },
+  "Mamadou Sakho": {
+    "Team": "Liverpool",
+    "Id": 3483.0,
+    "Injury_dates": [
+      "2015-11-08",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      41,
+      10
+    ],
+    "Position": "Left Center Back"
+  },
+  "Simon Mignolet": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-13"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Martin Škrtel": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-20",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      72,
+      4
+    ],
+    "Position": "Right Center Back"
+  },
+  "Divock Okoth Origi": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-26",
+      "2016-03-20",
+      "2016-04-20"
+    ],
+    "Injury_duration": [
+      44,
+      12,
+      26
+    ],
+    "Position": "Left Wing"
+  },
+  "Connor Steven Randall": {
+    "Team": "Liverpool - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-20"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Unknown"
+  },
+  "Nathaniel Edwin Clyne": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23",
+      "2016-04-20"
+    ],
+    "Injury_duration": [
+      3,
+      7
+    ],
+    "Position": "Right Back"
+  },
+  "Joe Allen": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      24
+    ],
+    "Position": "Left Center Forward"
+  },
+  "Bradley Shaun Smith": {
+    "Team": "Liverpool - no valid matches with player participation",
+    "Id": 13448.0,
+    "Injury_dates": [
+      "2016-02-10"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Unknown"
+  },
+  "Kevin Linford Stewart": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-14"
+    ],
+    "Injury_duration": [
+      55
+    ],
+    "Position": "Left Midfield"
+  },
+  "Alberto Moreno Pérez": {
+    "Team": "Liverpool",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-06"
+    ],
+    "Injury_duration": [
+      26
+    ],
+    "Position": "Right Wing"
+  },
+  "Lucas Pezzini Leiva": {
+    "Team": "Liverpool - no valid matches with player participation",
+    "Id": 7780.0,
+    "Injury_dates": [
+      "2016-02-29"
+    ],
+    "Injury_duration": [
+      40
+    ],
+    "Position": "Unknown"
+  },
+  "Emre Can": {
+    "Team": "Liverpool - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-14"
+    ],
+    "Injury_duration": [
+      20
+    ],
+    "Position": "Unknown"
+  },
+  "Danny Ward": {
+    "Team": "Liverpool",
+    "Id": 9914.0,
+    "Injury_dates": [
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Gnégnéri Yaya Touré": {
+    "Team": "Manchester City",
+    "Id": 3087.0,
+    "Injury_dates": [
+      "2015-08-16",
+      "2015-09-26",
+      "2015-09-26",
+      "2016-03-05",
+      "2016-03-05",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      -1,
+      3,
+      20,
+      -1,
+      9,
+      13
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Pablo Javier Zabaleta Girod": {
+    "Team": "Manchester City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-21",
+      "2015-10-28",
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      29,
+      61,
+      14
+    ],
+    "Position": "Unknown"
+  },
+  "Wilfried Guemiand Bony": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-23",
+      "2015-09-19",
+      "2015-11-08",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      20,
+      13,
+      19,
+      56
+    ],
+    "Position": "Center Forward"
+  },
+  "Vincent Kompany": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-12",
+      "2015-11-08",
+      "2015-12-26",
+      "2016-05-04"
+    ],
+    "Injury_duration": [
+      30,
+      48,
+      49,
+      135
+    ],
+    "Position": "Right Center Back"
+  },
+  "David Josué Jiménez Silva": {
+    "Team": "Manchester City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-16",
+      "2015-10-03",
+      "2016-02-06",
+      "2016-04-12",
+      "2016-04-23"
+    ],
+    "Injury_duration": [
+      13,
+      53,
+      7,
+      10,
+      22
+    ],
+    "Position": "Unknown"
+  },
+  "Kelechi Promise Iheanacho": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Left Wing"
+  },
+  "Eliaquim Mangala": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-11-21",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      13,
+      9,
+      52
+    ],
+    "Position": "Left Center Back"
+  },
+  "Samir Nasri": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-26",
+      "2015-10-17",
+      "2016-04-16",
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      20,
+      167,
+      14,
+      13
+    ],
+    "Position": "Left Wing"
+  },
+  "Sergio Leonel Agüero del Castillo": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03",
+      "2015-11-28"
+    ],
+    "Injury_duration": [
+      48,
+      14
+    ],
+    "Position": "Center Forward"
+  },
+  "Raheem Sterling": {
+    "Team": "Manchester City",
+    "Id": 3233.0,
+    "Injury_dates": [
+      "2015-10-31",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      0,
+      29
+    ],
+    "Position": "Left Wing"
+  },
+  "Fabian Delph": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-08",
+      "2015-12-26",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      12,
+      10,
+      56
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Joe Hart": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-21",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      13,
+      13
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Patrick Roberts": {
+    "Team": "Manchester City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-25"
+    ],
+    "Injury_duration": [
+      59
+    ],
+    "Position": "Unknown"
+  },
+  "Fernando Francisco Reges": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05",
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      -1,
+      28
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Jesús Navas González": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05",
+      "2016-02-02"
+    ],
+    "Injury_duration": [
+      -1,
+      25
+    ],
+    "Position": "Right Wing"
+  },
+  "Martín Gastón Demichelis": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      6
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Fernando Luiz Rosa": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      20
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Aleksandar Kolarov": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      16,
+      13
+    ],
+    "Position": "Left Back"
+  },
+  "Kevin De Bruyne": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      69
+    ],
+    "Position": "Left Center Forward"
+  },
+  "Bacary Sagna": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-02",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      21,
+      7
+    ],
+    "Position": "Right Back"
+  },
+  "Gaël Clichy": {
+    "Team": "Manchester City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-09"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Left Back"
+  },
+  "Phil Jones": {
+    "Team": "Manchester United - no valid matches with player participation",
+    "Id": 3314.0,
+    "Injury_dates": [
+      "2015-08-08",
+      "2015-11-21",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      43,
+      20,
+      92
+    ],
+    "Position": "Unknown"
+  },
+  "Michael Carrick": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-30",
+      "2015-09-26",
+      "2015-10-04",
+      "2015-11-07",
+      "2016-01-03"
+    ],
+    "Injury_duration": [
+      13,
+      7,
+      12,
+      21,
+      25
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Luke Shaw": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-12"
+    ],
+    "Injury_duration": [
+      247
+    ],
+    "Position": "Left Back"
+  },
+  "Ander Herrera Agüera": {
+    "Team": "Manchester United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-24",
+      "2015-11-21",
+      "2016-03-14",
+      "2016-04-13"
+    ],
+    "Injury_duration": [
+      22,
+      27,
+      19,
+      6
+    ],
+    "Position": "Unknown"
+  },
+  "Paddy McNair": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-20"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Left Center Back"
+  },
+  "Faustino Marcos Alberto Rojo": {
+    "Team": "Manchester United",
+    "Id": 3602.0,
+    "Injury_dates": [
+      "2015-09-20",
+      "2015-11-21"
+    ],
+    "Injury_duration": [
+      26,
+      95
+    ],
+    "Position": "Left Back"
+  },
+  "Luis Antonio Valencia Mosquera": {
+    "Team": "Manchester United",
+    "Id": 3267.0,
+    "Injury_dates": [
+      "2015-09-26",
+      "2015-10-25"
+    ],
+    "Injury_duration": [
+      3,
+      137
+    ],
+    "Position": "Right Back"
+  },
+  "Wayne Mark Rooney": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-04",
+      "2015-11-28",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      12,
+      20,
+      59
+    ],
+    "Position": "Center Forward"
+  },
+  "Bastian Schweinsteiger": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-04",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      12,
+      57
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "James Wilson": {
+    "Team": "Manchester United",
+    "Id": 6361.0,
+    "Injury_dates": [
+      "2015-10-04",
+      "2015-10-28"
+    ],
+    "Injury_duration": [
+      23,
+      27
+    ],
+    "Position": "Right Wing"
+  },
+  "Ashley Young": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-04",
+      "2015-12-19",
+      "2016-01-02",
+      "2016-01-17",
+      "2016-01-17"
+    ],
+    "Injury_duration": [
+      23,
+      -1,
+      9,
+      4,
+      76
+    ],
+    "Position": "Left Wing"
+  },
+  "Memphis Depay": {
+    "Team": "Manchester United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-28"
+    ],
+    "Injury_duration": [
+      5
+    ],
+    "Position": "Unknown"
+  },
+  "Marouane Fellaini-Bakkioui": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2016-02-07"
+    ],
+    "Injury_duration": [
+      24,
+      27
+    ],
+    "Position": "Center Forward"
+  },
+  "Chris Smalling": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07",
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      13,
+      13
+    ],
+    "Position": "Right Center Back"
+  },
+  "Jesse Lingard": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-21",
+      "2015-12-12"
+    ],
+    "Injury_duration": [
+      13,
+      30
+    ],
+    "Position": "Right Wing"
+  },
+  "Matteo Darmian": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05",
+      "2016-01-23",
+      "2016-02-13",
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      21,
+      9,
+      17,
+      8
+    ],
+    "Position": "Right Back"
+  },
+  "Morgan Schneiderlin": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      6
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Nick Powell": {
+    "Team": "Manchester United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-04"
+    ],
+    "Injury_duration": [
+      46
+    ],
+    "Position": "Unknown"
+  },
+  "Adnan Januzaj": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23",
+      "2016-02-28"
+    ],
+    "Injury_duration": [
+      35,
+      69
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Cameron Borthwick-Jackson": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      8
+    ],
+    "Position": "Left Back"
+  },
+  "David de Gea Quintana": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Donald Love": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      36
+    ],
+    "Position": "Right Back"
+  },
+  "Anthony Martial": {
+    "Team": "Manchester United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      8
+    ],
+    "Position": "Right Wing"
+  },
+  "Vurnon Anita": {
+    "Team": "Newcastle United",
+    "Id": 16072.0,
+    "Injury_dates": [
+      "2015-08-15",
+      "2015-12-28"
+    ],
+    "Injury_duration": [
+      0,
+      65
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Moussa Sissoko": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Right Wing"
+  },
+  "Steven Taylor": {
+    "Team": "Newcastle United - no valid matches with player participation",
+    "Id": 3722.0,
+    "Injury_dates": [
+      "2015-08-30",
+      "2016-04-09"
+    ],
+    "Injury_duration": [
+      145,
+      20
+    ],
+    "Position": "Unknown"
+  },
+  "Cheik Ismaël Tioté": {
+    "Team": "Newcastle United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-30",
+      "2015-11-21"
+    ],
+    "Injury_duration": [
+      27,
+      22
+    ],
+    "Position": "Unknown"
+  },
+  "Karl Darlow": {
+    "Team": "Newcastle United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-18"
+    ],
+    "Injury_duration": [
+      70
+    ],
+    "Position": "Unknown"
+  },
+  "Rolando Aarons": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-11-01"
+    ],
+    "Injury_duration": [
+      42,
+      75
+    ],
+    "Position": "Right Center Forward"
+  },
+  "Papiss Demba Cissé": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-12-19"
+    ],
+    "Injury_duration": [
+      14,
+      92
+    ],
+    "Position": "Center Forward"
+  },
+  "Massadio Haïdara": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-11-01"
+    ],
+    "Injury_duration": [
+      28,
+      197
+    ],
+    "Position": "Left Back"
+  },
+  "Jack Colback": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-26",
+      "2015-10-25",
+      "2016-01-02",
+      "2016-01-16"
+    ],
+    "Injury_duration": [
+      21,
+      33,
+      9,
+      27
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Gabriel Antoine Obertan": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-26"
+    ],
+    "Injury_duration": [
+      189
+    ],
+    "Position": "Left Wing"
+  },
+  "Daryl Janmaat": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03",
+      "2016-02-06",
+      "2016-04-09",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      14,
+      6,
+      27,
+      12
+    ],
+    "Position": "Right Back"
+  },
+  "Kevin Mbabu": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03"
+    ],
+    "Injury_duration": [
+      22
+    ],
+    "Position": "Left Back"
+  },
+  "Rob Elliot": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Jamaal Lascelles": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-28"
+    ],
+    "Injury_duration": [
+      28
+    ],
+    "Position": "Left Back"
+  },
+  "Mike Williamson": {
+    "Team": "Newcastle United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-29"
+    ],
+    "Injury_duration": [
+      63
+    ],
+    "Position": "Unknown"
+  },
+  "Siem Stefan de Jong": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-12"
+    ],
+    "Injury_duration": [
+      50
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Paul Dummett": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-02-03",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      17,
+      27,
+      42
+    ],
+    "Position": "Left Back"
+  },
+  "Ivan Toney": {
+    "Team": "Newcastle United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-22"
+    ],
+    "Injury_duration": [
+      85
+    ],
+    "Position": "Unknown"
+  },
+  "Chancel Mbemba Mangulu": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-03"
+    ],
+    "Injury_duration": [
+      46
+    ],
+    "Position": "Right Center Back"
+  },
+  "Fabricio Coloccini": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      92
+    ],
+    "Position": "Left Center Back"
+  },
+  "Aleksandar Mitrović": {
+    "Team": "Newcastle United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      17
+    ],
+    "Position": "Center Forward"
+  },
+  "Yoan Gouffran": {
+    "Team": "Newcastle United",
+    "Id": 43757.0,
+    "Injury_dates": [
+      "2016-03-02",
+      "2016-03-02"
+    ],
+    "Injury_duration": [
+      2,
+      74
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Kyle Lafferty": {
+    "Team": "Norwich City - no valid matches with player participation",
+    "Id": 9519.0,
+    "Injury_dates": [
+      "2015-08-07"
+    ],
+    "Injury_duration": [
+      15
+    ],
+    "Position": "Unknown"
+  },
+  "Martin Olsson": {
+    "Team": "Norwich City - no valid matches with player participation",
+    "Id": 3576.0,
+    "Injury_dates": [
+      "2015-08-07"
+    ],
+    "Injury_duration": [
+      15
+    ],
+    "Position": "Unknown"
+  },
+  "Gary Hooper": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-30"
+    ],
+    "Injury_duration": [
+      55
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Lewis Grabban": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-20",
+      "2016-01-13",
+      "2016-02-08"
+    ],
+    "Injury_duration": [
+      34,
+      9,
+      21
+    ],
+    "Position": "Center Forward"
+  },
+  "Dieumerci Mbokani Bezua": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-24"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Center Forward"
+  },
+  "Nathan Redmond": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2016-03-12"
+    ],
+    "Injury_duration": [
+      20,
+      20
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Wes Hoolahan": {
+    "Team": "Norwich City",
+    "Id": 10966.0,
+    "Injury_dates": [
+      "2015-11-29",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      12,
+      16
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Andre Wisdom": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-12",
+      "2016-01-24",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      27,
+      47,
+      30
+    ],
+    "Position": "Right Back"
+  },
+  "Alexander Banor Tettey": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-03-01"
+    ],
+    "Injury_duration": [
+      16,
+      76
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Graham Dorrans": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      20
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Sébastien Aymar Bassong Nguena": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      28
+    ],
+    "Position": "Left Center Back"
+  },
+  "Ryan Bennett": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-12",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      20,
+      21
+    ],
+    "Position": "Right Center Back"
+  },
+  "Robert Brady": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Left Back"
+  },
+  "Timm Klose": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-09"
+    ],
+    "Injury_duration": [
+      37
+    ],
+    "Position": "Right Center Back"
+  },
+  "Russell Martin": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-19"
+    ],
+    "Injury_duration": [
+      41
+    ],
+    "Position": "Right Center Back"
+  },
+  "Jonathan Howson": {
+    "Team": "Norwich City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      8
+    ],
+    "Position": "Right Midfield"
+  },
+  "Steven Caulker": {
+    "Team": "Southampton - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-14"
+    ],
+    "Injury_duration": [
+      9
+    ],
+    "Position": "Unknown"
+  },
+  "Gastón Exequiel Ramírez Pereyra": {
+    "Team": "Southampton - no valid matches with player participation",
+    "Id": 7010.0,
+    "Injury_dates": [
+      "2015-08-07"
+    ],
+    "Injury_duration": [
+      44
+    ],
+    "Position": "Unknown"
+  },
+  "Maarten Stekelenburg": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03",
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      21,
+      14
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Jay Rodriguez": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-17"
+    ],
+    "Injury_duration": [
+      168
+    ],
+    "Position": "Left Wing"
+  },
+  "Virgil van Dijk": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Left Center Back"
+  },
+  "José Miguel da Rocha Fonte": {
+    "Team": "Southampton",
+    "Id": 3960.0,
+    "Injury_dates": [
+      "2015-12-05",
+      "2016-04-23"
+    ],
+    "Injury_duration": [
+      -1,
+      0
+    ],
+    "Position": "Right Center Back"
+  },
+  "Victor Wanyama": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-12",
+      "2016-04-23"
+    ],
+    "Injury_duration": [
+      -1,
+      0
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Cédric Ricardo Alves Soares": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-19"
+    ],
+    "Injury_duration": [
+      24
+    ],
+    "Position": "Right Back"
+  },
+  "Graziano Pellè": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-19",
+      "2016-01-13"
+    ],
+    "Injury_duration": [
+      24,
+      19
+    ],
+    "Position": "Center Forward"
+  },
+  "NaN": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-04-03"
+    ],
+    "Injury_duration": [
+      27,
+      13
+    ],
+    "Position": "Unknown"
+  },
+  "Matt Targett": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-02"
+    ],
+    "Injury_duration": [
+      10
+    ],
+    "Position": "Left Back"
+  },
+  "Charlie Austin": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-01",
+      "2016-04-03"
+    ],
+    "Injury_duration": [
+      32,
+      27
+    ],
+    "Position": "Left Wing"
+  },
+  "Shane Long": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-01"
+    ],
+    "Injury_duration": [
+      10
+    ],
+    "Position": "Left Wing"
+  },
+  "Ryan Bertrand": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Left Back"
+  },
+  "Jordy Clasie": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-08"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Sadio Mané": {
+    "Team": "Southampton",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-15"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Osazemwinde Peter Odemwingie": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-09",
+      "2015-10-28"
+    ],
+    "Injury_duration": [
+      41,
+      66
+    ],
+    "Position": "Left Wing"
+  },
+  "Erik Pieters": {
+    "Team": "Stoke City",
+    "Id": 3467.0,
+    "Injury_dates": [
+      "2015-08-15",
+      "2016-03-12",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      2,
+      20,
+      6
+    ],
+    "Position": "Left Back"
+  },
+  "Glen Johnson": {
+    "Team": "Stoke City",
+    "Id": 4724.0,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-10-24",
+      "2016-02-02",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      21,
+      7,
+      -1,
+      93
+    ],
+    "Position": "Right Back"
+  },
+  "Marc Wilson": {
+    "Team": "Stoke City",
+    "Id": 13848.0,
+    "Injury_dates": [
+      "2015-09-19"
+    ],
+    "Injury_duration": [
+      29
+    ],
+    "Position": "Right Back"
+  },
+  "Xherdan Shaqiri": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-26",
+      "2015-11-28",
+      "2015-12-05",
+      "2016-01-02",
+      "2016-03-12",
+      "2016-04-18"
+    ],
+    "Injury_duration": [
+      7,
+      0,
+      13,
+      20,
+      21,
+      11
+    ],
+    "Position": "Right Wing"
+  },
+  "Mame Biram Diouf": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03"
+    ],
+    "Injury_duration": [
+      21
+    ],
+    "Position": "Center Forward"
+  },
+  "Shay Given": {
+    "Team": "Stoke City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-08"
+    ],
+    "Injury_duration": [
+      176
+    ],
+    "Position": "Unknown"
+  },
+  "Phil Bardsley": {
+    "Team": "Stoke City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-28",
+      "2015-12-13",
+      "2016-02-02",
+      "2016-03-02"
+    ],
+    "Injury_duration": [
+      33,
+      5,
+      24,
+      16
+    ],
+    "Position": "Unknown"
+  },
+  "Bojan Krkíc Pérez": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-24"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Right Midfield"
+  },
+  "Geoff Cameron": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-24",
+      "2015-12-12",
+      "2016-01-02",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      14,
+      13,
+      55,
+      0
+    ],
+    "Position": "Right Center Back"
+  },
+  "José Luis Sanmartín Mato": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-24"
+    ],
+    "Injury_duration": [
+      28
+    ],
+    "Position": "Right Wing"
+  },
+  "Marc Muniesa Martínez": {
+    "Team": "Stoke City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-27",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      81,
+      17
+    ],
+    "Position": "Unknown"
+  },
+  "Jonathan Walters": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31",
+      "2016-02-02",
+      "2016-02-02",
+      "2016-03-19"
+    ],
+    "Injury_duration": [
+      0,
+      -1,
+      10,
+      41
+    ],
+    "Position": "Right Wing"
+  },
+  "Stephen Ireland": {
+    "Team": "Stoke City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-22",
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      61,
+      603
+    ],
+    "Position": "Unknown"
+  },
+  "Peter Crouch": {
+    "Team": "Stoke City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-01"
+    ],
+    "Injury_duration": [
+      34
+    ],
+    "Position": "Unknown"
+  },
+  "Marko Arnautović": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-17",
+      "2016-02-02",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      6,
+      -1,
+      20
+    ],
+    "Position": "Left Wing"
+  },
+  "Charlie Adam": {
+    "Team": "Stoke City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-26"
+    ],
+    "Injury_duration": [
+      53
+    ],
+    "Position": "Unknown"
+  },
+  "Ryan Shawcross": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23",
+      "2016-03-12"
+    ],
+    "Injury_duration": [
+      48,
+      21
+    ],
+    "Position": "Right Center Back"
+  },
+  "Ibrahim Afellay": {
+    "Team": "Stoke City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-18"
+    ],
+    "Injury_duration": [
+      252
+    ],
+    "Position": "Left Wing"
+  },
+  "Danny Graham": {
+    "Team": "Sunderland - no valid matches with player participation",
+    "Id": 4217.0,
+    "Injury_dates": [
+      "2015-08-07"
+    ],
+    "Injury_duration": [
+      8
+    ],
+    "Position": "Unknown"
+  },
+  "Adam Johnson": {
+    "Team": "Sunderland",
+    "Id": 42902.0,
+    "Injury_dates": [
+      "2015-08-08"
+    ],
+    "Injury_duration": [
+      42
+    ],
+    "Position": "Right Midfield"
+  },
+  "Yann Gérard M''Vila": {
+    "Team": "Sunderland - no valid matches with player participation",
+    "Id": 4429.0,
+    "Injury_dates": [
+      "2015-08-07"
+    ],
+    "Injury_duration": [
+      8
+    ],
+    "Position": "Unknown"
+  },
+  "Younes Kaboul": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15",
+      "2015-09-26",
+      "2015-10-25",
+      "2015-12-19",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      14,
+      20,
+      7,
+      69,
+      12
+    ],
+    "Position": "Left Center Back"
+  },
+  "Adam Matthews": {
+    "Team": "Sunderland - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-27",
+      "2015-12-13"
+    ],
+    "Injury_duration": [
+      93,
+      40
+    ],
+    "Position": "Unknown"
+  },
+  "Emanuele Giaccherini": {
+    "Team": "Sunderland - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-14"
+    ],
+    "Injury_duration": [
+      11
+    ],
+    "Position": "Unknown"
+  },
+  "Jack Rodwell": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-10-03",
+      "2015-11-07",
+      "2015-12-30"
+    ],
+    "Injury_duration": [
+      13,
+      28,
+      27,
+      13
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Fabio Borini": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-17",
+      "2015-11-07",
+      "2016-02-02"
+    ],
+    "Injury_duration": [
+      15,
+      21,
+      10
+    ],
+    "Position": "Left Wing"
+  },
+  "John O''Shea": {
+    "Team": "Sunderland",
+    "Id": 16890.0,
+    "Injury_dates": [
+      "2015-10-25",
+      "2015-12-26",
+      "2016-03-01"
+    ],
+    "Injury_duration": [
+      7,
+      4,
+      3
+    ],
+    "Position": "Left Center Back"
+  },
+  "Ola Toivonen": {
+    "Team": "Sunderland",
+    "Id": 4417.0,
+    "Injury_dates": [
+      "2015-10-25"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Jermain Defoe": {
+    "Team": "Sunderland",
+    "Id": 3337.0,
+    "Injury_dates": [
+      "2015-11-28",
+      "2015-11-28"
+    ],
+    "Injury_duration": [
+      0,
+      13
+    ],
+    "Position": "Center Forward"
+  },
+  "Lee Cattermole": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-28",
+      "2016-03-01"
+    ],
+    "Injury_duration": [
+      28,
+      19
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Sebastian Larsson": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-28"
+    ],
+    "Injury_duration": [
+      90
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Steven Fletcher": {
+    "Team": "Sunderland",
+    "Id": 9554.0,
+    "Injury_dates": [
+      "2015-12-12"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Sebastián Coates Nión": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-19"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Right Center Back"
+  },
+  "Jan Kirchhoff": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-02-13",
+      "2016-03-01"
+    ],
+    "Injury_duration": [
+      16,
+      13,
+      3
+    ],
+    "Position": "Right Center Back"
+  },
+  "Billy Jones": {
+    "Team": "Sunderland",
+    "Id": 10503.0,
+    "Injury_dates": [
+      "2016-02-06",
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      20,
+      9
+    ],
+    "Position": "Right Back"
+  },
+  "Jeremain Lens": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-02"
+    ],
+    "Injury_duration": [
+      47
+    ],
+    "Position": "Left Midfield"
+  },
+  "Duncan Watmore": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      69
+    ],
+    "Position": "Right Center Forward"
+  },
+  "Wahbi Khazri": {
+    "Team": "Sunderland",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-05",
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      15,
+      12
+    ],
+    "Position": "Right Midfield"
+  },
+  "Lamine Koné": {
+    "Team": "Sunderland",
+    "Id": 13286.0,
+    "Injury_dates": [
+      "2016-03-20"
+    ],
+    "Injury_duration": [
+      12
+    ],
+    "Position": "Right Center Back"
+  },
+  "Sung-Yeung Ki": {
+    "Team": "Swansea City",
+    "Id": 3605.0,
+    "Injury_dates": [
+      "2015-08-08",
+      "2016-02-02",
+      "2016-03-02"
+    ],
+    "Injury_duration": [
+      14,
+      10,
+      10
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Jefferson Antonio Montero Vite": {
+    "Team": "Swansea City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-22",
+      "2016-03-06",
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      21,
+      13,
+      13
+    ],
+    "Position": "Left Wing"
+  },
+  "Nathan Dyer": {
+    "Team": "Swansea City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-14"
+    ],
+    "Injury_duration": [
+      32
+    ],
+    "Position": "Unknown"
+  },
+  "André Ayew Pele": {
+    "Team": "Swansea City",
+    "Id": 3347.0,
+    "Injury_dates": [
+      "2015-10-04",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      14,
+      28
+    ],
+    "Position": "Right Wing"
+  },
+  "Wayne Routledge": {
+    "Team": "Swansea City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-05",
+      "2015-12-12",
+      "2015-12-26"
+    ],
+    "Injury_duration": [
+      26,
+      14,
+      7
+    ],
+    "Position": "Unknown"
+  },
+  "Franck Tabanou": {
+    "Team": "Swansea City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-05"
+    ],
+    "Injury_duration": [
+      96
+    ],
+    "Position": "Unknown"
+  },
+  "Éderzito António Macedo Lopes": {
+    "Team": "Swansea City",
+    "Id": 15996.0,
+    "Injury_dates": [
+      "2015-11-29"
+    ],
+    "Injury_duration": [
+      44
+    ],
+    "Position": "Center Forward"
+  },
+  "Jonjo Shelvey": {
+    "Team": "Swansea City - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-11"
+    ],
+    "Injury_duration": [
+      9
+    ],
+    "Position": "Unknown"
+  },
+  "Àngel Rangel Zaragoza": {
+    "Team": "Swansea City",
+    "Id": 3973.0,
+    "Injury_dates": [
+      "2015-12-26"
+    ],
+    "Injury_duration": [
+      0
+    ],
+    "Position": "Right Back"
+  },
+  "Federico Fernández": {
+    "Team": "Swansea City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-26"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Right Center Back"
+  },
+  "Modou Barrow": {
+    "Team": "Swansea City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-19"
+    ],
+    "Injury_duration": [
+      0
+    ],
+    "Position": "Right Wing"
+  },
+  "Neil Taylor": {
+    "Team": "Swansea City",
+    "Id": 9627.0,
+    "Injury_dates": [
+      "2016-03-12",
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      15,
+      14
+    ],
+    "Position": "Left Back"
+  },
+  "Leon Britton": {
+    "Team": "Swansea City",
+    "Id": 4631.0,
+    "Injury_dates": [
+      "2016-04-02"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Alberto Paloschi": {
+    "Team": "Swansea City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-24"
+    ],
+    "Injury_duration": [
+      21
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Gylfi Þór Sigurðsson": {
+    "Team": "Swansea City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Ashley Williams": {
+    "Team": "Swansea City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-01"
+    ],
+    "Injury_duration": [
+      14
+    ],
+    "Position": "Left Center Back"
+  },
+  "Łukasz Fabiański": {
+    "Team": "Swansea City",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-07"
+    ],
+    "Injury_duration": [
+      8
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Christian Dannemann Eriksen": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15"
+    ],
+    "Injury_duration": [
+      36
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Clinton Mua N''Jie": {
+    "Team": "Tottenham Hotspur - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15",
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      31,
+      140
+    ],
+    "Position": "Unknown"
+  },
+  "Nabil Bentaleb": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2016-03-11"
+    ],
+    "Injury_duration": [
+      71,
+      65
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Mousa Sidi Yaya Dembélé": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-12-05",
+      "2015-12-28"
+    ],
+    "Injury_duration": [
+      36,
+      13,
+      15
+    ],
+    "Position": "Right Wing"
+  },
+  "Alex Pritchard": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2016-04-03"
+    ],
+    "Injury_duration": [
+      156,
+      42
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Ryan Mason": {
+    "Team": "Tottenham Hotspur",
+    "Id": 40127.0,
+    "Injury_dates": [
+      "2015-09-13",
+      "2015-11-29"
+    ],
+    "Injury_duration": [
+      41,
+      27
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Federico Julián Fazio": {
+    "Team": "Tottenham Hotspur - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-02"
+    ],
+    "Injury_duration": [
+      30
+    ],
+    "Position": "Unknown"
+  },
+  "Heung-Min Son": {
+    "Team": "Tottenham Hotspur",
+    "Id": 3083.0,
+    "Injury_dates": [
+      "2015-09-26"
+    ],
+    "Injury_duration": [
+      39
+    ],
+    "Position": "Right Wing"
+  },
+  "Danny Rose": {
+    "Team": "Tottenham Hotspur - no valid matches with player participation",
+    "Id": 3594.0,
+    "Injury_dates": [
+      "2015-10-02",
+      "2016-03-05"
+    ],
+    "Injury_duration": [
+      14,
+      7
+    ],
+    "Position": "Unknown"
+  },
+  "Tom Carroll": {
+    "Team": "Tottenham Hotspur - no valid matches with player participation",
+    "Id": 3310.0,
+    "Injury_dates": [
+      "2015-10-05",
+      "2016-02-14"
+    ],
+    "Injury_duration": [
+      46,
+      16
+    ],
+    "Position": "Unknown"
+  },
+  "Nacer Chadli": {
+    "Team": "Tottenham Hotspur",
+    "Id": 4831.0,
+    "Injury_dates": [
+      "2015-10-17"
+    ],
+    "Injury_duration": [
+      51
+    ],
+    "Position": "Left Wing"
+  },
+  "Jan Vertonghen": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      70
+    ],
+    "Position": "Left Center Back"
+  },
+  "Erik Lamela": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-14"
+    ],
+    "Injury_duration": [
+      10
+    ],
+    "Position": "Right Wing"
+  },
+  "Hugo Lloris": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-14"
+    ],
+    "Injury_duration": [
+      10
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Andros Townsend": {
+    "Team": "Tottenham Hotspur - no valid matches with player participation",
+    "Id": 3297.0,
+    "Injury_dates": [
+      "2016-02-14"
+    ],
+    "Injury_duration": [
+      28
+    ],
+    "Position": "Unknown"
+  },
+  "Eric Dier": {
+    "Team": "Tottenham Hotspur",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-05-02"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Tommie Hoban": {
+    "Team": "Watford - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-20"
+    ],
+    "Injury_duration": [
+      239
+    ],
+    "Position": "Unknown"
+  },
+  "Nordin Amrabat": {
+    "Team": "Watford - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-29"
+    ],
+    "Injury_duration": [
+      51
+    ],
+    "Position": "Unknown"
+  },
+  "José Manuel Jurado Marín": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-27",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      54,
+      28
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Ikechi Anya": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Right Midfield"
+  },
+  "Valon Behrami": {
+    "Team": "Watford - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-05",
+      "2016-04-20"
+    ],
+    "Injury_duration": [
+      11,
+      25
+    ],
+    "Position": "Unknown"
+  },
+  "Allan Romeo Nyom": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Right Back"
+  },
+  "Rene Gilmartin": {
+    "Team": "Watford - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-18"
+    ],
+    "Injury_duration": [
+      211
+    ],
+    "Position": "Unknown"
+  },
+  "Adlène Guédioura": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Left Defensive Midfield"
+  },
+  "Heurelho da Silva Gomes": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05"
+    ],
+    "Injury_duration": [
+      -1
+    ],
+    "Position": "Goalkeeper"
+  },
+  "José Holebas": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-13"
+    ],
+    "Injury_duration": [
+      20
+    ],
+    "Position": "Left Back"
+  },
+  "Miguel Ángel Britos Cabrera": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-06",
+      "2016-03-02"
+    ],
+    "Injury_duration": [
+      13,
+      17
+    ],
+    "Position": "Left Center Back"
+  },
+  "Odion Jude Ighalo": {
+    "Team": "Watford",
+    "Id": 5458.0,
+    "Injury_dates": [
+      "2016-03-19"
+    ],
+    "Injury_duration": [
+      0
+    ],
+    "Position": "Center Attacking Midfield"
+  },
+  "Etienne Capoue": {
+    "Team": "Watford",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      0
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "Almen Abdi": {
+    "Team": "Watford",
+    "Id": 43081.0,
+    "Injury_dates": [
+      "2016-04-02"
+    ],
+    "Injury_duration": [
+      18
+    ],
+    "Position": "Right Wing"
+  },
+  "James Grant Chester": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-10"
+    ],
+    "Injury_duration": [
+      33
+    ],
+    "Position": "Right Back"
+  },
+  "José Salomón Rondón Giménez": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15",
+      "2015-10-03",
+      "2016-04-16"
+    ],
+    "Injury_duration": [
+      0,
+      0,
+      0
+    ],
+    "Position": "Left Midfield"
+  },
+  "Saido Berahino": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15",
+      "2016-01-16",
+      "2016-01-23",
+      "2016-04-21"
+    ],
+    "Injury_duration": [
+      28,
+      6,
+      6,
+      8
+    ],
+    "Position": "Left Center Forward"
+  },
+  "Jonathan Grant Evans": {
+    "Team": "West Bromwich Albion",
+    "Id": 11012.0,
+    "Injury_dates": [
+      "2015-09-19",
+      "2015-10-03",
+      "2016-02-02",
+      "2016-05-15"
+    ],
+    "Injury_duration": [
+      0,
+      13,
+      10,
+      -1
+    ],
+    "Position": "Left Center Back"
+  },
+  "Gareth McAuley": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-19",
+      "2016-02-06",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      14,
+      3,
+      20
+    ],
+    "Position": "Right Center Back"
+  },
+  "Jonas Olsson": {
+    "Team": "West Bromwich Albion",
+    "Id": 20527.0,
+    "Injury_dates": [
+      "2015-09-28",
+      "2015-12-28",
+      "2016-01-16",
+      "2016-01-16",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      18,
+      15,
+      -1,
+      6,
+      3
+    ],
+    "Position": "Left Center Back"
+  },
+  "James Morrison": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03",
+      "2016-01-13"
+    ],
+    "Injury_duration": [
+      28,
+      123
+    ],
+    "Position": "Left Defensive Midfield"
+  },
+  "Joleon Lescott": {
+    "Team": "West Bromwich Albion - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-25"
+    ],
+    "Injury_duration": [
+      7
+    ],
+    "Position": "Unknown"
+  },
+  "Chris Brunt": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-07",
+      "2016-01-16"
+    ],
+    "Injury_duration": [
+      13,
+      27
+    ],
+    "Position": "Left Back"
+  },
+  "Stéphane Sessègnon": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-05",
+      "2016-04-30"
+    ],
+    "Injury_duration": [
+      13,
+      15
+    ],
+    "Position": "Right Midfield"
+  },
+  "Victor Chinedu Anichebe": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-28"
+    ],
+    "Injury_duration": [
+      16
+    ],
+    "Position": "Center Forward"
+  },
+  "Darren Fletcher": {
+    "Team": "West Bromwich Albion",
+    "Id": 4022.0,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-01-23",
+      "2016-05-15"
+    ],
+    "Injury_duration": [
+      6,
+      9,
+      -1
+    ],
+    "Position": "Right Defensive Midfield"
+  },
+  "Ben Foster": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23",
+      "2016-04-21"
+    ],
+    "Injury_duration": [
+      9,
+      8
+    ],
+    "Position": "Goalkeeper"
+  },
+  "Callum McManaman": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      70
+    ],
+    "Position": "Left Midfield"
+  },
+  "Craig Dawson": {
+    "Team": "West Bromwich Albion",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-02-06",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      7,
+      13
+    ],
+    "Position": "Right Center Back"
+  },
+  "Pedro Mba Obiang Avomo": {
+    "Team": "West Ham United",
+    "Id": 3897.0,
+    "Injury_dates": [
+      "2015-08-15",
+      "2015-10-24"
+    ],
+    "Injury_duration": [
+      0,
+      36
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Reece Oxford": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15",
+      "2015-11-23"
+    ],
+    "Injury_duration": [
+      7,
+      11
+    ],
+    "Position": "Center Defensive Midfield"
+  },
+  "Mauro Matías Zárate": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-15"
+    ],
+    "Injury_duration": [
+      35
+    ],
+    "Position": "Right Wing"
+  },
+  "Dimitri Payet": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-08-29",
+      "2015-11-07"
+    ],
+    "Injury_duration": [
+      16,
+      56
+    ],
+    "Position": "Left Wing"
+  },
+  "Angelo Obinze Ogbonna": {
+    "Team": "West Ham United",
+    "Id": 3843.0,
+    "Injury_dates": [
+      "2015-09-14"
+    ],
+    "Injury_duration": [
+      32
+    ],
+    "Position": "Left Center Back"
+  },
+  "Andy Carroll": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-09-26",
+      "2015-12-12",
+      "2016-01-12",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      20,
+      14,
+      27,
+      13
+    ],
+    "Position": "Left Wing"
+  },
+  "Winston Reid": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03",
+      "2015-10-03",
+      "2015-12-05",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      0,
+      28,
+      34,
+      35
+    ],
+    "Position": "Right Center Back"
+  },
+  "Aaron Cresswell": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-03"
+    ],
+    "Injury_duration": [
+      13
+    ],
+    "Position": "Left Back"
+  },
+  "Matt Jarvis": {
+    "Team": "West Ham United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-10-31"
+    ],
+    "Injury_duration": [
+      73
+    ],
+    "Position": "Unknown"
+  },
+  "Enner Remberto Valencia Lastra": {
+    "Team": "West Ham United",
+    "Id": 28559.0,
+    "Injury_dates": [
+      "2015-11-07",
+      "2016-01-02",
+      "2016-02-13"
+    ],
+    "Injury_duration": [
+      34,
+      9,
+      28
+    ],
+    "Position": "Left Wing"
+  },
+  "Manuel Lanzini": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-11-29",
+      "2016-01-02"
+    ],
+    "Injury_duration": [
+      27,
+      49
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Diafra Sakho": {
+    "Team": "West Ham United",
+    "Id": 3962.0,
+    "Injury_dates": [
+      "2015-11-29"
+    ],
+    "Injury_duration": [
+      93
+    ],
+    "Position": "Center Forward"
+  },
+  "Nikica Jelavić": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2015-12-20"
+    ],
+    "Injury_duration": [
+      12
+    ],
+    "Position": "Center Forward"
+  },
+  "Cheikhou Kouyaté": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-02",
+      "2016-02-02",
+      "2016-02-09"
+    ],
+    "Injury_duration": [
+      13,
+      6,
+      11
+    ],
+    "Position": "Right Center Midfield"
+  },
+  "James Tomkins": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-16",
+      "2016-02-06"
+    ],
+    "Injury_duration": [
+      13,
+      55
+    ],
+    "Position": "Right Back"
+  },
+  "Carl Jenkinson": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      275
+    ],
+    "Position": "Right Back"
+  },
+  "Mark Noble": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-01-23"
+    ],
+    "Injury_duration": [
+      9
+    ],
+    "Position": "Left Center Midfield"
+  },
+  "Joey O''Brien": {
+    "Team": "West Ham United - no valid matches with player participation",
+    "Id": 36265.0,
+    "Injury_dates": [
+      "2016-02-09"
+    ],
+    "Injury_duration": [
+      38
+    ],
+    "Position": "Unknown"
+  },
+  "James Collins": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-03-02"
+    ],
+    "Injury_duration": [
+      31
+    ],
+    "Position": "Right Back"
+  },
+  "Samuel Mark Byram": {
+    "Team": "West Ham United - no valid matches with player participation",
+    "Id": 3586.0,
+    "Injury_dates": [
+      "2016-03-18"
+    ],
+    "Injury_duration": [
+      15
+    ],
+    "Position": "Unknown"
+  },
+  "Alexandre Dimitri Song-Billong": {
+    "Team": "West Ham United - no valid matches with player participation",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-03"
+    ],
+    "Injury_duration": [
+      27
+    ],
+    "Position": "Unknown"
+  },
+  "Adrián San Miguel del Castillo": {
+    "Team": "West Ham United",
+    "Id": NaN,
+    "Injury_dates": [
+      "2016-04-30"
+    ],
+    "Injury_duration": [
+      15
+    ],
+    "Position": "Goalkeeper"
+  }
+}

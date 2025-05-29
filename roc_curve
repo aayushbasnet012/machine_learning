@@ -1,0 +1,46 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.metrics import roc_curve, auc
+from sklearn.model_selection import train_test_split
+from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier
+
+# Load your saved features and labels
+X = np.load("X_with_heatmap.npy")
+y = np.load("y.npy")
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, stratify=y, random_state=42
+)
+
+# Train Random Forest
+rf = RandomForestClassifier(n_estimators=100, class_weight={
+                            0: 1, 1: 10}, random_state=42)
+rf.fit(X_train, y_train)
+y_proba_rf = rf.predict_proba(X_test)[:, 1]
+fpr_rf, tpr_rf, _ = roc_curve(y_test, y_proba_rf)
+roc_auc_rf = auc(fpr_rf, tpr_rf)
+
+# Train XGBoost
+xgb = XGBClassifier(scale_pos_weight=10, eval_metric='logloss',
+                    use_label_encoder=False, random_state=42)
+xgb.fit(X_train, y_train)
+y_proba_xgb = xgb.predict_proba(X_test)[:, 1]
+fpr_xgb, tpr_xgb, _ = roc_curve(y_test, y_proba_xgb)
+roc_auc_xgb = auc(fpr_xgb, tpr_xgb)
+
+# Plot ROC Curves
+plt.figure(figsize=(8, 6))
+plt.plot(fpr_rf, tpr_rf,
+         label=f"Random Forest (AUC = {roc_auc_rf:.2f})", linewidth=2)
+plt.plot(fpr_xgb, tpr_xgb,
+         label=f"XGBoost (AUC = {roc_auc_xgb:.2f})", linewidth=2)
+plt.plot([0, 1], [0, 1], color='gray', linestyle='--')
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("ROC Curve Comparison: Random Forest vs XGBoost")
+plt.legend(loc="lower right")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
