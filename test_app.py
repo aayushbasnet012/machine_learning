@@ -506,6 +506,383 @@ if app_mode == "Player Risk Assessment":
                 # Display the enhanced HTML visualization
                 st.components.v1.html(player_html, height=600, scrolling=False)
 
+# Team Overview Page
+elif app_mode == "Team Overview":
+    st.title("🏆 Team Overview Dashboard")
+    st.markdown("""
+    <div style="background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+        <h4 style="color: white; margin: 0;">⚽ Team Injury Risk Management Center</h4>
+        <p style="color: rgba(255,255,255,0.8); margin: 5px 0 0 0;">Comprehensive team-level injury analytics and squad management insights</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Get all teams
+    teams = sorted(list(set([player_info[player]['Team'] for player in player_info.keys()])))
+    
+    col1, col2 = st.columns([1, 3])
+    
+    with col1:
+        st.subheader("🎯 Team Selection & Controls")
+        
+        selected_team = st.selectbox(
+            "Select Team",
+            teams,
+            help="Choose a team for detailed analysis"
+        )
+        
+        analysis_depth = st.selectbox(
+            "Analysis Depth",
+            ["Quick Overview", "Detailed Analysis", "Complete Report"],
+            index=1
+        )
+        
+        risk_filter = st.multiselect(
+            "Risk Level Filter",
+            ["Low", "Medium", "High", "Critical"],
+            default=["Medium", "High", "Critical"]
+        )
+        
+        show_comparisons = st.checkbox("Show Team Comparisons", value=True)
+        show_trends = st.checkbox("Show Risk Trends", value=False)
+        
+        if st.button("🔍 Generate Team Report", type="primary"):
+            with st.spinner(f"🔄 Analyzing {selected_team} squad..."):
+                # Get team players and their risk data
+                team_players = [player for player in player_info.keys() 
+                               if player_info[player]['Team'] == selected_team]
+                
+                team_risk_data = []
+                for player in team_players:
+                    player_features = get_player_features(player)
+                    if player_features is not None:
+                        prediction = predict_risk(player_features, xgb_model)
+                        if prediction:
+                            position = get_player_position(player)
+                            position_category = categorize_position(position)
+                            
+                            # Risk level mapping
+                            if prediction['probability'] < 0.2:
+                                risk_level = "Low"
+                            elif prediction['probability'] < 0.4:
+                                risk_level = "Medium"
+                            elif prediction['probability'] < 0.7:
+                                risk_level = "High"
+                            else:
+                                risk_level = "Critical"
+                            
+                            team_risk_data.append({
+                                'Player': player,
+                                'Position': position,
+                                'Position_Category': position_category,
+                                'Risk_Probability': prediction['probability'],
+                                'Risk_Level': risk_level,
+                                'Risk_Score': prediction['probability'] * 100
+                            })
+                
+                if team_risk_data:
+                    st.session_state['team_data'] = pd.DataFrame(team_risk_data)
+                    st.session_state['selected_team'] = selected_team
+                    st.success(f"✅ Analysis completed for {selected_team}!")
+                else:
+                    st.error(f"❌ No data available for {selected_team}")
+    
+    with col2:
+        if 'team_data' in st.session_state and 'selected_team' in st.session_state:
+            team_df = st.session_state['team_data']
+            team_name = st.session_state['selected_team']
+            
+            # Apply risk filter
+            filtered_df = team_df[team_df['Risk_Level'].isin(risk_filter)] if risk_filter else team_df
+            
+            # Team Risk Summary Cards
+            st.subheader(f"📊 {team_name} - Risk Summary")
+            
+            metric_col1, metric_col2, metric_col3, metric_col4 = st.columns(4)
+            
+            with metric_col1:
+                squad_size = len(team_df)
+                st.metric(
+                    "👥 Squad Size",
+                    squad_size,
+                    help="Total number of players analyzed"
+                )
+            
+            with metric_col2:
+                avg_risk = team_df['Risk_Probability'].mean()
+                risk_status = "🟢 Low" if avg_risk < 0.3 else "🟡 Medium" if avg_risk < 0.6 else "🔴 High"
+                st.metric(
+                    "📈 Average Risk",
+                    f"{avg_risk:.1%}",
+                    risk_status
+                )
+            
+            with metric_col3:
+                high_risk_count = len(team_df[team_df['Risk_Level'].isin(['High', 'Critical'])])
+                st.metric(
+                    "⚠️ High Risk Players",
+                    high_risk_count,
+                    f"{high_risk_count/squad_size*100:.1f}%"
+                )
+            
+            with metric_col4:
+                critical_risk_count = len(team_df[team_df['Risk_Level'] == 'Critical'])
+                st.metric(
+                    "🚨 Critical Risk",
+                    critical_risk_count,
+                    f"{critical_risk_count/squad_size*100:.1f}%" if critical_risk_count > 0 else "0%"
+                )
+            
+            # Risk Distribution Visualization
+            st.subheader("📊 Risk Distribution Analysis")
+            
+            tab1, tab2, tab3 = st.tabs(["Risk Overview", "Position Analysis", "Player Details"])
+            
+            with tab1:
+                # Risk level pie chart
+                risk_counts = team_df['Risk_Level'].value_counts()
+                fig_pie = px.pie(
+                    values=risk_counts.values,
+                    names=risk_counts.index,
+                    title=f"{team_name} - Risk Level Distribution",
+                    color_discrete_map={
+                        'Low': '#4CAF50',
+                        'Medium': '#FF9800', 
+                        'High': '#FF5722',
+                        'Critical': '#D32F2F'
+                    }
+                )
+                st.plotly_chart(fig_pie, use_container_width=True)
+                
+                # Risk probability histogram
+                fig_hist = px.histogram(
+                    team_df,
+                    x='Risk_Probability',
+                    nbins=20,
+                    title=f"{team_name} - Risk Probability Distribution",
+                    labels={'Risk_Probability': 'Risk Probability', 'count': 'Number of Players'}
+                )
+                fig_hist.add_vline(x=team_df['Risk_Probability'].mean(), 
+                                 line_dash="dash", line_color="red",
+                                 annotation_text=f"Team Average: {avg_risk:.1%}")
+                st.plotly_chart(fig_hist, use_container_width=True)
+            
+            with tab2:
+                # Position-based risk analysis
+                position_risk = team_df.groupby('Position_Category').agg({
+                    'Risk_Probability': ['mean', 'count', 'std'],
+                    'Player': 'count'
+                }).round(3)
+                
+                position_risk.columns = ['Avg_Risk', 'Player_Count', 'Risk_Std', 'Total_Players']
+                position_risk = position_risk.reset_index()
+                
+                # Position risk bar chart
+                fig_pos = px.bar(
+                    position_risk,
+                    x='Position_Category',
+                    y='Avg_Risk',
+                    color='Avg_Risk',
+                    title=f"{team_name} - Average Risk by Position",
+                    text='Avg_Risk',
+                    color_continuous_scale='Reds'
+                )
+                fig_pos.update_traces(texttemplate='%{text:.1%}', textposition='outside')
+                st.plotly_chart(fig_pos, use_container_width=True)
+                
+                # Position risk scatter
+                fig_scatter = px.scatter(
+                    team_df,
+                    x='Position_Category',
+                    y='Risk_Probability',
+                    color='Risk_Level',
+                    size='Risk_Score',
+                    hover_data=['Player'],
+                    title=f"{team_name} - Player Risk by Position",
+                    color_discrete_map={
+                        'Low': '#4CAF50',
+                        'Medium': '#FF9800', 
+                        'High': '#FF5722',
+                        'Critical': '#D32F2F'
+                    }
+                )
+                st.plotly_chart(fig_scatter, use_container_width=True)
+                
+                # Position statistics table
+                st.subheader("📋 Position Risk Statistics")
+                st.dataframe(
+                    position_risk.style.background_gradient(subset=['Avg_Risk'], cmap='Reds')
+                    .format({
+                        'Avg_Risk': '{:.1%}',
+                        'Risk_Std': '{:.3f}'
+                    }),
+                    use_container_width=True
+                )
+            
+            with tab3:
+                # Detailed player table
+                st.subheader(f"👥 {team_name} Squad Risk Assessment")
+                
+                # Sort players by risk
+                sorted_team_df = team_df.sort_values('Risk_Probability', ascending=False)
+                
+                # Apply filters
+                if risk_filter:
+                    sorted_team_df = sorted_team_df[sorted_team_df['Risk_Level'].isin(risk_filter)]
+                
+                # Color coding function
+                def color_risk_level(val):
+                    color_map = {
+                        'Low': 'background-color: #C8E6C9',
+                        'Medium': 'background-color: #FFE0B2',
+                        'High': 'background-color: #FFCDD2',
+                        'Critical': 'background-color: #FFCDD2; font-weight: bold'
+                    }
+                    return color_map.get(val, '')
+                
+                # Display styled dataframe
+                st.dataframe(
+                    sorted_team_df[['Player', 'Position', 'Position_Category', 'Risk_Probability', 'Risk_Level']]
+                    .style.applymap(color_risk_level, subset=['Risk_Level'])
+                    .format({'Risk_Probability': '{:.1%}'}),
+                    use_container_width=True
+                )
+                
+                # Priority action list
+                st.subheader("🎯 Priority Actions")
+                
+                critical_players = sorted_team_df[sorted_team_df['Risk_Level'] == 'Critical']
+                high_risk_players = sorted_team_df[sorted_team_df['Risk_Level'] == 'High']
+                
+                if len(critical_players) > 0:
+                    st.error(f"🚨 **IMMEDIATE ATTENTION REQUIRED** - {len(critical_players)} player(s)")
+                    for _, player in critical_players.iterrows():
+                        st.write(f"• **{player['Player']}** ({player['Position']}) - {player['Risk_Probability']:.1%} risk")
+                
+                if len(high_risk_players) > 0:
+                    st.warning(f"⚠️ **HIGH PRIORITY MONITORING** - {len(high_risk_players)} player(s)")
+                    for _, player in high_risk_players.iterrows():
+                        st.write(f"• **{player['Player']}** ({player['Position']}) - {player['Risk_Probability']:.1%} risk")
+                
+                if len(critical_players) == 0 and len(high_risk_players) == 0:
+                    st.success("✅ No immediate high-risk concerns identified")
+            
+            # Team Comparisons (if enabled)
+            if show_comparisons:
+                st.subheader("🏆 League Comparison")
+                
+                # Calculate league statistics
+                all_teams_data = []
+                for team in teams:
+                    team_players = [player for player in player_info.keys() 
+                                   if player_info[player]['Team'] == team]
+                    
+                    team_risks = []
+                    for player in team_players:
+                        player_features = get_player_features(player)
+                        if player_features is not None:
+                            prediction = predict_risk(player_features, xgb_model)
+                            if prediction:
+                                team_risks.append(prediction['probability'])
+                    
+                    if team_risks:
+                        all_teams_data.append({
+                            'Team': team,
+                            'Avg_Risk': np.mean(team_risks),
+                            'Squad_Size': len(team_risks),
+                            'High_Risk_Count': len([r for r in team_risks if r > 0.4]),
+                            'High_Risk_Percentage': len([r for r in team_risks if r > 0.4]) / len(team_risks) * 100
+                        })
+                
+                league_df = pd.DataFrame(all_teams_data)
+                league_df = league_df.sort_values('Avg_Risk', ascending=False)
+                
+                # Team ranking
+                team_rank = league_df[league_df['Team'] == team_name].index[0] + 1 if len(league_df[league_df['Team'] == team_name]) > 0 else "N/A"
+                
+                col_rank1, col_rank2 = st.columns(2)
+                
+                with col_rank1:
+                    st.metric(
+                        "📊 League Ranking",
+                        f"#{team_rank}" if team_rank != "N/A" else "N/A",
+                        f"out of {len(league_df)} teams"
+                    )
+                
+                with col_rank2:
+                    league_avg = league_df['Avg_Risk'].mean()
+                    diff_from_avg = (avg_risk - league_avg) * 100
+                    st.metric(
+                        "🎯 vs League Average",
+                        f"{diff_from_avg:+.1f}%",
+                        f"League: {league_avg:.1%}"
+                    )
+                
+                # League comparison chart
+                fig_league = px.bar(
+                    league_df.head(10),
+                    x='Team',
+                    y='Avg_Risk',
+                    color='Avg_Risk',
+                    title="Top 10 Teams by Risk Level",
+                    color_continuous_scale='Reds'
+                )
+                fig_league.update_layout(xaxis_tickangle=-45)
+                
+                # Highlight selected team
+                if team_name in league_df['Team'].values:
+                    fig_league.add_shape(
+                        type="rect",
+                        x0=list(league_df['Team']).index(team_name) - 0.4,
+                        x1=list(league_df['Team']).index(team_name) + 0.4,
+                        y0=0,
+                        y1=league_df[league_df['Team'] == team_name]['Avg_Risk'].iloc[0],
+                        fillcolor="gold",
+                        opacity=0.3,
+                        line=dict(color="gold", width=3)
+                    )
+                
+                st.plotly_chart(fig_league, use_container_width=True)
+            
+            # Management Recommendations
+            st.subheader("💡 Management Recommendations")
+            
+            recommendations = []
+            
+            # Risk level recommendations
+            if critical_risk_count > 0:
+                recommendations.append(f"🚨 **CRITICAL**: {critical_risk_count} player(s) require immediate medical assessment and possible rest.")
+            
+            if high_risk_count > 3:
+                recommendations.append(f"⚠️ **HIGH PRIORITY**: Consider rotating high-risk players and implementing recovery protocols.")
+            
+            # Position-specific recommendations
+            position_risks = team_df.groupby('Position_Category')['Risk_Probability'].mean()
+            highest_risk_position = position_risks.idxmax()
+            if position_risks[highest_risk_position] > 0.5:
+                recommendations.append(f"🎯 **POSITION FOCUS**: {highest_risk_position} players show elevated risk levels - consider tactical adjustments.")
+            
+            # Squad management
+            if avg_risk > 0.5:
+                recommendations.append("📋 **SQUAD MANAGEMENT**: Overall team risk is elevated - implement squad rotation and load management.")
+            elif avg_risk < 0.3:
+                recommendations.append("✅ **SQUAD STATUS**: Team shows good injury risk profile - maintain current protocols.")
+            
+            # Display recommendations
+            for i, rec in enumerate(recommendations, 1):
+                st.info(f"{i}. {rec}")
+            
+            if not recommendations:
+                st.success("🎉 **EXCELLENT**: No specific recommendations - squad appears well-managed!")
+        
+        else:
+            # Default view when no team is selected
+            st.info("👆 Select a team and click 'Generate Team Report' to view comprehensive team analytics")
+            
+            # Show available teams preview
+            st.subheader("📋 Available Teams")
+            teams_preview = pd.DataFrame({'Team': teams, 'Available': ['✅'] * len(teams)})
+            st.dataframe(teams_preview, use_container_width=True)
+
 # Position Analysis Page
 elif app_mode == "Position Analysis":
     st.title("📍 Advanced Position-Based Injury Analytics")
